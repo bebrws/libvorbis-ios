@@ -320,9 +320,11 @@
 				TargetAttributes = {
 					A4B463CB1A90063900298931 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = J224A9FKGZ;
 					};
 					A4B463F91A9007B200298931 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = J224A9FKGZ;
 					};
 				};
 			};
@@ -506,6 +508,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = J224A9FKGZ;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -523,7 +526,9 @@
 					../include,
 					../../libogg/include,
 					../lib,
+					"/Users/bbarrows/repos/libogg-1.3.4/include",
 				);
+				LIBRARY_SEARCH_PATHS = "/Users/bbarrows/repos/libogg-1.3.4/src/.libs/";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -546,6 +551,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = J224A9FKGZ;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
@@ -558,7 +564,9 @@
 					../include,
 					../../libogg/include,
 					../lib,
+					"/Users/bbarrows/repos/libogg-1.3.4/include",
 				);
+				LIBRARY_SEARCH_PATHS = "/Users/bbarrows/repos/libogg-1.3.4/src/.libs/";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -571,6 +579,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				DEVELOPMENT_TEAM = J224A9FKGZ;
+				HEADER_SEARCH_PATHS = "/Users/bbarrows/repos/libogg-1.3.4/include";
+				LIBRARY_SEARCH_PATHS = "/Users/bbarrows/repos/libogg-1.3.4/src/.libs/";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -579,6 +590,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				DEVELOPMENT_TEAM = J224A9FKGZ;
+				HEADER_SEARCH_PATHS = "/Users/bbarrows/repos/libogg-1.3.4/include";
+				LIBRARY_SEARCH_PATHS = "/Users/bbarrows/repos/libogg-1.3.4/src/.libs/";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
